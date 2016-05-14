@@ -1,0 +1,29 @@
+{
+    "name": "serialimprovement/component",
+    "version": "0.0.1",
+    "description": "A light component object used to create reusable components on the server",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "require": {
+        "php": "^7.0",
+        "serialimprovement/core": "0.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {"SerialImprovement\\": "src/SerialImprovement"}
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SerialImprovement/core"
+        }
+    ],
+    "authors": [
+        {
+            "name": "bigtallbill",
+            "email": "bigtallbill@gmail.com"
+        }
+    ]
+}
