@@ -1,8 +1,5 @@
 <?php
-
-
 namespace SerialImprovement\Component;
-
 
 use SerialImprovement\Core\Input;
 
