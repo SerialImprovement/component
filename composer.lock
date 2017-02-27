@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "68d94430d8b3c44feba77c1db93c03ff",
+    "content-hash": "0fb232ba4f8aca4f85694e96bf598c0b",
     "packages": [
         {
             "name": "serialimprovement/core",
-            "version": "0.0.2",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SerialImprovement/core.git",
-                "reference": "2e0fa0d1f4caf21267ef9d6ebed111a85a05038d"
+                "reference": "e26fc8f92b79fdfe3342576e6a2dfe25ad480ec4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SerialImprovement/core/zipball/2e0fa0d1f4caf21267ef9d6ebed111a85a05038d",
-                "reference": "2e0fa0d1f4caf21267ef9d6ebed111a85a05038d",
+                "url": "https://api.github.com/repos/SerialImprovement/core/zipball/e26fc8f92b79fdfe3342576e6a2dfe25ad480ec4",
+                "reference": "e26fc8f92b79fdfe3342576e6a2dfe25ad480ec4",
                 "shasum": ""
             },
             "require": {
@@ -43,10 +43,10 @@
             ],
             "description": "A few core php classes that are useful in many projects",
             "support": {
-                "source": "https://github.com/SerialImprovement/core/tree/0.0.2",
+                "source": "https://github.com/SerialImprovement/core/tree/0.1.0",
                 "issues": "https://github.com/SerialImprovement/core/issues"
             },
-            "time": "2016-12-14T17:22:28+00:00"
+            "time": "2017-02-27T00:40:09+00:00"
         }
     ],
     "packages-dev": [
@@ -102,7 +102,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2017-02-16T16:15:51+00:00"
+            "time": "2017-02-16 16:15:51"
         },
         {
             "name": "myclabs/deep-copy",
@@ -198,7 +198,7 @@
                 "reflection",
                 "static analysis"
             ],
-            "time": "2015-12-27T11:43:31+00:00"
+            "time": "2015-12-27 11:43:31"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -353,7 +353,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2017-02-24T13:43:11+00:00"
+            "time": "2017-02-24 13:43:11"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -416,7 +416,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-02-23T07:38:02+00:00"
+            "time": "2017-02-23 07:38:02"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -463,7 +463,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2016-10-03T07:40:28+00:00"
+            "time": "2016-10-03 07:40:28"
         },
         {
             "name": "phpunit/php-text-template",
@@ -553,7 +553,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2017-02-26T11:10:40+00:00"
+            "time": "2017-02-26 11:10:40"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -602,7 +602,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-02-25T07:46:05+00:00"
+            "time": "2017-02-25 07:46:05"
         },
         {
             "name": "phpunit/phpunit",
@@ -684,7 +684,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-02-20T14:35:00+00:00"
+            "time": "2017-02-20 14:35:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -743,7 +743,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2016-12-08T20:27:08+00:00"
+            "time": "2016-12-08 20:27:08"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -788,7 +788,7 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "time": "2017-02-24T14:52:15+00:00"
+            "time": "2017-02-24 14:52:15"
         },
         {
             "name": "sebastian/comparator",
@@ -852,7 +852,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2017-01-29T09:50:25+00:00"
+            "time": "2017-01-29 09:50:25"
         },
         {
             "name": "sebastian/diff",
@@ -904,7 +904,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2016-10-03T07:45:03+00:00"
+            "time": "2016-10-03 07:45:03"
         },
         {
             "name": "sebastian/environment",
@@ -954,7 +954,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-11-26T07:53:53+00:00"
+            "time": "2016-11-26 07:53:53"
         },
         {
             "name": "sebastian/exporter",
@@ -1021,7 +1021,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2017-02-26T13:18:12+00:00"
+            "time": "2017-02-26 13:18:12"
         },
         {
             "name": "sebastian/global-state",
@@ -1072,7 +1072,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2017-02-23T14:11:06+00:00"
+            "time": "2017-02-23 14:11:06"
         },
         {
             "name": "sebastian/object-enumerator",
@@ -1118,7 +1118,7 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-            "time": "2017-02-18T16:04:11+00:00"
+            "time": "2017-02-18 16:04:11"
         },
         {
             "name": "sebastian/recursion-context",
@@ -1171,7 +1171,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2016-11-19T07:33:16+00:00"
+            "time": "2016-11-19 07:33:16"
         },
         {
             "name": "sebastian/resource-operations",
@@ -1213,7 +1213,7 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-            "time": "2016-10-03T07:43:09+00:00"
+            "time": "2016-10-03 07:43:09"
         },
         {
             "name": "sebastian/version",
@@ -1256,7 +1256,7 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2016-10-03T07:35:21+00:00"
+            "time": "2016-10-03 07:35:21"
         },
         {
             "name": "symfony/yaml",
@@ -1311,7 +1311,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-21T14:51:50+00:00"
+            "time": "2017-02-21 14:51:50"
         },
         {
             "name": "webmozart/assert",
@@ -1361,7 +1361,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-11-23T20:04:41+00:00"
+            "time": "2016-11-23 20:04:41"
         }
     ],
     "aliases": [],

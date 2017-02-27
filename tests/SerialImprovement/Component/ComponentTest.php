@@ -23,16 +23,16 @@ class ComponentTest extends \PHPUnit_Framework_TestCase
 {
     public function testRender()
     {
-        $component = new GreetingComponent(Input::buildFromHash(['name' => 'Jim']));
+        $component = new GreetingComponent(new Input(['name' => 'Jim']));
         $this->assertContains('hello, Jim', $component->render());
     }
 
     public function testRenderWithChildren()
     {
         $component = new ChildrenComponent(null, [
-            new GreetingComponent(Input::buildFromHash(['name' => 'Bob'])),
-            new GreetingComponent(Input::buildFromHash(['name' => 'Louise'])),
-            new GreetingComponent(Input::buildFromHash(['name' => 'Pip'])),
+            new GreetingComponent(new Input(['name' => 'Bob'])),
+            new GreetingComponent(new Input(['name' => 'Louise'])),
+            new GreetingComponent(new Input(['name' => 'Pip'])),
         ]);
 
         $this->assertContains('Bob', $component->render());
